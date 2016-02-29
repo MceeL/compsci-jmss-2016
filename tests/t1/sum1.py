@@ -1,11 +1,6 @@
 # write a program that reads in 10 numbers, then prints the sum of those
-
-total = 0
-for i in range(3):
-    num = float(input("please enter a number"))
-
-    total = total + num
-
-print (total)
-
-
+numbers=[]
+for i in range(10):
+    listnum=int(input("Please insert numbers here: "))
+    numbers.append(listnum)
+print(sum(numbers))
