@@ -5,6 +5,7 @@ argument=True
 while argument:
     word=input("Insert word here")
     if "quit" in word:
+        words.sort()
         print(words)
     else:
         words.append(word)
